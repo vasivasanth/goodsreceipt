@@ -142,6 +142,7 @@ function addProductRow() {
         document.getElementById('expiryDate').value = "";
         document.getElementById('receivedquantity').value = "";
         loop2();
+        clearAllProductCheckboxes();
     }
 }
 
